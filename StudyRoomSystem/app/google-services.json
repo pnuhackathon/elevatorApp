@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "282446548643",
+    "firebase_url": "https://elevatorsystem-af0e7.firebaseio.com",
+    "project_id": "elevatorsystem-af0e7",
+    "storage_bucket": "elevatorsystem-af0e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282446548643:android:b5842ac1a7d0d437",
+        "android_client_info": {
+          "package_name": "com.example.studyroomsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282446548643-nd9q54356640qodg3tf8bq812kda2gll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studyroomsystem",
+            "certificate_hash": "31ad5dcf449a5e9cecd53aa034a8bf45c1b260cd"
+          }
+        },
+        {
+          "client_id": "282446548643-d9v3auft6ls18ieo2gd9jeatrmtjav3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Bf_A_XPtv6kiERZOzUixJnQq7uLzgjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282446548643-d9v3auft6ls18ieo2gd9jeatrmtjav3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

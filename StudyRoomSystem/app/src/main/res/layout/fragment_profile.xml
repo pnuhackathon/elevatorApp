@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/layout_bubble"
+            android:layout_marginHorizontal="30dp"
+            >
+            <TextView
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textViewUserName"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textViewUserSchoolid"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:layout_below="@+id/textViewUserName"
+                />
+            <Button
+                android:text = "비밀번호 수정"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:id="@+id/btnModify"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textViewUserSchoolid"
+                android:background="@drawable/button_bubble"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="50dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/layout_bubble"
+            android:layout_marginHorizontal="30dp"
+            >
+
+
+            <Button
+                android:text = "관리자 예약"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:id="@+id/btn_manager_reservation"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_bubble"
+                />
+
+            <Button
+                android:text = "사용자 예약현황 조회"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:id="@+id/btn_manager_view"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/btn_manager_reservation"
+                android:background="@drawable/button_bubble"
+                />
+
+            <Button
+                android:text = "로그아웃"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:id="@+id/btn_logout"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/btn_manager_view"
+                android:background="@drawable/button_bubble"
+                />
+
+            <Button
+                android:text = "회원탈퇴"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:id="@+id/btn_getout"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/btn_logout"
+                android:background="@drawable/button_bubble"
+                />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

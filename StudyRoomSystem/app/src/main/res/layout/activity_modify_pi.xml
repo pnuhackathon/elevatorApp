@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context=".ModifyPI">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="100dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/olivedrab">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  비밀번호 수정  "
+                    android:id="@+id/tvmodifyPI"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/font"
+                    android:textSize="20sp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="65dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="30dp"
+                android:paddingBottom="50dp"
+                android:background="@drawable/layout_bubble"
+                android:layout_centerHorizontal="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="새 비밀번호를 입력해 주세요."
+                    android:id="@+id/tvmodifypassword"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    />
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:hint="  새 비밀번호"
+                    android:id="@+id/etmodify_password"
+                    android:layout_below="@+id/tvmodifypassword"
+                    android:inputType="textPassword"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/real_ettext_bubble"
+                    android:paddingLeft="10sp"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="새 비밀번호를 다시 입력해 주세요."
+                    android:id="@+id/tvmodifyrepassword"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:layout_below="@+id/etmodify_password"
+                    />
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:hint="  새 비밀번호 재입력"
+                    android:id="@+id/etmodify_repassword"
+                    android:layout_below="@+id/tvmodifyrepassword"
+                    android:inputType="textPassword"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/real_ettext_bubble"
+                    android:paddingLeft="10dp"
+                    android:textSize="12sp"
+                    />
+                <Button
+                    android:text = "수정하기"
+                    android:layout_width="310dp"
+                    android:layout_height="40dp"
+                    android:textSize="15dp"
+                    android:id="@+id/btnfinalmodify"
+                    android:background="@drawable/button_bubble"
+                    android:textColor="#ffffff"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/etmodify_repassword"
+                    />
+                <Button
+                    android:text = "취소"
+                    android:layout_width="310dp"
+                    android:layout_height="40dp"
+                    android:textSize="15dp"
+                    android:id="@+id/btnModifycancel"
+                    android:background="@drawable/button_bubble"
+                    android:textColor="#ffffff"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/btnfinalmodify"
+                    />
+            </RelativeLayout>
+
+            <ProgressBar
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/pbRegister"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>

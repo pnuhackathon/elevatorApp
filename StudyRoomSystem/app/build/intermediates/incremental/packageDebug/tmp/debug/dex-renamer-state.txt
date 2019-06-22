@@ -1,0 +1,7 @@
+#Sat Jun 22 02:15:52 KST 2019
+base.0=D\:\\asdfg\\StudyRoomSystem\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\asdfg\\StudyRoomSystem\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out

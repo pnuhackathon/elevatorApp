@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.snailpong.schedulemaster.TabbedActivity">
+    <item
+        android:id="@+id/action_schedule_add"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_mode_edit_black_24dp"
+        android:title="" />
+    <item
+        android:id="@+id/action_schedule_check"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_event_available_black_24dp"
+        android:title="" />
+    <item
+        android:id="@+id/action_setting"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="" />
+</menu>
