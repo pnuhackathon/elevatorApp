@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\asdfg\\StudyRoomSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
+            "outputFile": "D:\\elevatorApp\\StudyRoomSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\min\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\79365f7504e5142120e4ecaf18efc772\\res\\values-sw\\values.xml",

@@ -1095,6 +1095,8 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable real_ettext_bubble
 drawable sky_button_bubble
+drawable sort_down
+drawable sort_up
 drawable splash
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1190,6 +1192,7 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id down
 id edit_query
 id end
 id end_padder
@@ -1256,6 +1259,10 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id out_four
+id out_one
+id out_three
+id out_two
 id outline
 id packed
 id parallax
@@ -1443,6 +1450,7 @@ layout activity_profile
 layout activity_register
 layout activity_reservation
 layout activity_reset_pwd
+layout activity_select_button
 layout activity_studyroom
 layout activity_test
 layout design_bottom_navigation_item
