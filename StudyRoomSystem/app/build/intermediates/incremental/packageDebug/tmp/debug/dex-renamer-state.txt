@@ -1,7 +1,7 @@
-#Sat Jul 20 21:15:16 KST 2019
-base.0=D\:\\elevatorApp\\StudyRoomSystem\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+#Wed Aug 21 23:26:26 KST 2019
+base.0=D\:\\made_App\\elevatorApp\\StudyRoomSystem\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\elevatorApp\\StudyRoomSystem\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+base.1=D\:\\made_App\\elevatorApp\\StudyRoomSystem\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1

@@ -29,22 +29,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
         <activity android:name="com.example.studyroomsystem.SelectButton" />
-        <activity android:name="com.example.studyroomsystem.TestActivity" />
-        <activity android:name="com.example.studyroomsystem.ManagerViewPage" />
         <activity android:name="com.example.studyroomsystem.Profile" />
         <activity android:name="com.example.studyroomsystem.Register" />
         <activity android:name="com.example.studyroomsystem.RegisterActivity" />
-        <activity android:name="com.example.studyroomsystem.ReservationActivity" />
-        <activity android:name="com.example.studyroomsystem.PagerActivity" />
-        <activity android:name="com.example.studyroomsystem.ModifyPI" />
         <activity android:name="com.example.studyroomsystem.ResetPWD" />
         <activity android:name="com.example.studyroomsystem.EmailLink" />
-        <activity android:name="com.example.studyroomsystem.Personal_Info" />
         <activity android:name="com.example.studyroomsystem.LoginActivity" />
-        <activity android:name="com.example.studyroomsystem.StudyRoomActivity" />
-        <activity android:name="com.example.studyroomsystem.ManagerReservationActivity" />
         <activity android:name="com.example.studyroomsystem.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

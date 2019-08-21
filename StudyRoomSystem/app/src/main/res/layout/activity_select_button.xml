@@ -13,13 +13,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/out_one"
         android:text="1" />
+
     <Button
-        android:layout_marginTop="20dp"
+        android:id="@+id/out_two"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/out_two"
+        android:layout_marginTop="20dp"
         android:layout_toRightOf="@id/out_one"
-        android:layout_centerHorizontal="true"
         android:text="2" />
     <Button
         android:layout_marginTop="20dp"

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\elevatorApp\\StudyRoomSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
+            "outputFile": "D:\\made_App\\elevatorApp\\StudyRoomSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\min\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\a59654fb81ffdec5f1a914aaf7e2e303\\res\\values-pa\\values.xml",
