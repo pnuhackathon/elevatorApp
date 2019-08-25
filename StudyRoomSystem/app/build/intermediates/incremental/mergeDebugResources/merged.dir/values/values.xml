@@ -235,7 +235,6 @@
     <color name="ic_launcher_background">#FFFFFF</color>
     <color name="ic_noimage_background">#FFFFFF</color>
     <color name="ic_text_background">#FFFFFF</color>
-    <color name="mainpink">#FD74C4</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -260,6 +259,7 @@
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="notification_material_background_media_default_color">#ff424242</color>
     <color name="olivedrab">#6B8E23</color>
+    <color name="pink">#FD74C4</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -646,11 +646,11 @@
     <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
   </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:statusBarColor">@color/olivedrab</item>
+        <item name="android:statusBarColor">@color/pink</item>
 
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">

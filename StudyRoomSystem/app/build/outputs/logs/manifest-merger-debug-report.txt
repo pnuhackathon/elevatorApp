@@ -155,7 +155,7 @@ ADDED from C:\Users\rycan\Desktop\Local\elevatorApp\StudyRoomSystem\app\src\main
 	android:screenOrientation
 		ADDED from C:\Users\rycan\Desktop\Local\elevatorApp\StudyRoomSystem\app\src\main\AndroidManifest.xml:17:13-49
 	android:theme
-		ADDED from C:\Users\rycan\Desktop\Local\elevatorApp\StudyRoomSystem\app\src\main\AndroidManifest.xml:16:13-46
+		ADDED from C:\Users\rycan\Desktop\Local\elevatorApp\StudyRoomSystem\app\src\main\AndroidManifest.xml:16:13-45
 	android:name
 		ADDED from C:\Users\rycan\Desktop\Local\elevatorApp\StudyRoomSystem\app\src\main\AndroidManifest.xml:15:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER

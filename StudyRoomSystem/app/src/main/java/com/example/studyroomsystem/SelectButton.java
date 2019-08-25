@@ -43,28 +43,28 @@ public class SelectButton extends AppCompatActivity {
             }
         });*/
 
-        Button one_btn = (Button)findViewById(R.id.out_one);
+        ImageButton one_btn = (ImageButton)findViewById(R.id.out_one);
         one_btn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
                 socket.emit("SpecialCall", "1");
             }
         });
 
-        Button two_btn = (Button)findViewById(R.id.out_two);
+        ImageButton two_btn = (ImageButton)findViewById(R.id.out_two);
         two_btn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
                 socket.emit("SpecialCall", "2");
             }
         });
 
-        Button three_btn = (Button)findViewById(R.id.out_three);
+        ImageButton three_btn = (ImageButton)findViewById(R.id.out_three);
         three_btn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
                 socket.emit("SpecialCall", "3");
             }
         });
 
-        Button four_btn = (Button)findViewById(R.id.out_four);
+        ImageButton four_btn = (ImageButton)findViewById(R.id.out_four);
         four_btn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
                 socket.emit("SpecialCall", "4");

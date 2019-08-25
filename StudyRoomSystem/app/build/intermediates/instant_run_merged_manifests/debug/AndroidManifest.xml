@@ -34,7 +34,7 @@
         <activity
             android:name="com.example.studyroomsystem.SplashActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/SplahTheme" >
+            android:theme="@drawable/splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

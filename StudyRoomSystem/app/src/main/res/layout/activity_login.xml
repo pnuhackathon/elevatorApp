@@ -55,7 +55,7 @@
             android:layout_below="@+id/pwdTxt"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:background="@color/mainpink"
+            android:background="@color/pink"
             android:text="로그인"
             android:textAlignment="center"
             android:textColor="#ffffff"
@@ -70,7 +70,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="7dp"
             android:layout_below="@+id/loginButton"
-            android:background="@color/mainpink"
+            android:background="@color/pink"
             />
         <Button
             android:text = "비밀번호 찾기"
@@ -82,7 +82,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="7dp"
             android:layout_below="@+id/registerButton"
-            android:background="@color/mainpink"
+            android:background="@color/pink"
             />
         <ProgressBar
             android:layout_width="50dp"

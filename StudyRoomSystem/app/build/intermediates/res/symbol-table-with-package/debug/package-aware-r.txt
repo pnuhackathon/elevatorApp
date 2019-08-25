@@ -655,7 +655,6 @@ color ic_human_background
 color ic_launcher_background
 color ic_noimage_background
 color ic_text_background
-color mainpink
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -698,6 +697,7 @@ color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
 color olivedrab
+color pink
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
