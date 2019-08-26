@@ -373,28 +373,28 @@ public final class R {
         public static final int material_grey_900 = 0x7f060060;
         public static final int notification_action_color_filter = 0x7f06007b;
         public static final int notification_icon_bg_color = 0x7f06007c;
-        public static final int primary_dark_material_dark = 0x7f06007f;
-        public static final int primary_dark_material_light = 0x7f060080;
-        public static final int primary_material_dark = 0x7f060081;
-        public static final int primary_material_light = 0x7f060082;
-        public static final int primary_text_default_material_dark = 0x7f060083;
-        public static final int primary_text_default_material_light = 0x7f060084;
-        public static final int primary_text_disabled_material_dark = 0x7f060085;
-        public static final int primary_text_disabled_material_light = 0x7f060086;
-        public static final int ripple_material_dark = 0x7f060087;
-        public static final int ripple_material_light = 0x7f060088;
-        public static final int secondary_text_default_material_dark = 0x7f060089;
-        public static final int secondary_text_default_material_light = 0x7f06008a;
-        public static final int secondary_text_disabled_material_dark = 0x7f06008b;
-        public static final int secondary_text_disabled_material_light = 0x7f06008c;
-        public static final int switch_thumb_disabled_material_dark = 0x7f06008d;
-        public static final int switch_thumb_disabled_material_light = 0x7f06008e;
-        public static final int switch_thumb_material_dark = 0x7f06008f;
-        public static final int switch_thumb_material_light = 0x7f060090;
-        public static final int switch_thumb_normal_material_dark = 0x7f060091;
-        public static final int switch_thumb_normal_material_light = 0x7f060092;
-        public static final int tooltip_background_dark = 0x7f060093;
-        public static final int tooltip_background_light = 0x7f060094;
+        public static final int primary_dark_material_dark = 0x7f060080;
+        public static final int primary_dark_material_light = 0x7f060081;
+        public static final int primary_material_dark = 0x7f060082;
+        public static final int primary_material_light = 0x7f060083;
+        public static final int primary_text_default_material_dark = 0x7f060084;
+        public static final int primary_text_default_material_light = 0x7f060085;
+        public static final int primary_text_disabled_material_dark = 0x7f060086;
+        public static final int primary_text_disabled_material_light = 0x7f060087;
+        public static final int ripple_material_dark = 0x7f060088;
+        public static final int ripple_material_light = 0x7f060089;
+        public static final int secondary_text_default_material_dark = 0x7f06008a;
+        public static final int secondary_text_default_material_light = 0x7f06008b;
+        public static final int secondary_text_disabled_material_dark = 0x7f06008c;
+        public static final int secondary_text_disabled_material_light = 0x7f06008d;
+        public static final int switch_thumb_disabled_material_dark = 0x7f06008e;
+        public static final int switch_thumb_disabled_material_light = 0x7f06008f;
+        public static final int switch_thumb_material_dark = 0x7f060090;
+        public static final int switch_thumb_material_light = 0x7f060091;
+        public static final int switch_thumb_normal_material_dark = 0x7f060092;
+        public static final int switch_thumb_normal_material_light = 0x7f060093;
+        public static final int tooltip_background_dark = 0x7f060094;
+        public static final int tooltip_background_light = 0x7f060095;
     }
     public static final class dimen {
         private dimen() {}
@@ -601,20 +601,20 @@ public final class R {
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f080059;
         public static final int abc_textfield_search_material = 0x7f08005a;
         public static final int abc_vector_test = 0x7f08005b;
-        public static final int notification_action_background = 0x7f080094;
-        public static final int notification_bg = 0x7f080095;
-        public static final int notification_bg_low = 0x7f080096;
-        public static final int notification_bg_low_normal = 0x7f080097;
-        public static final int notification_bg_low_pressed = 0x7f080098;
-        public static final int notification_bg_normal = 0x7f080099;
-        public static final int notification_bg_normal_pressed = 0x7f08009a;
-        public static final int notification_icon_background = 0x7f08009b;
-        public static final int notification_template_icon_bg = 0x7f08009c;
-        public static final int notification_template_icon_low_bg = 0x7f08009d;
-        public static final int notification_tile_bg = 0x7f08009e;
-        public static final int notify_panel_notification_icon_bg = 0x7f08009f;
-        public static final int tooltip_frame_dark = 0x7f0800a5;
-        public static final int tooltip_frame_light = 0x7f0800a6;
+        public static final int notification_action_background = 0x7f08009c;
+        public static final int notification_bg = 0x7f08009d;
+        public static final int notification_bg_low = 0x7f08009e;
+        public static final int notification_bg_low_normal = 0x7f08009f;
+        public static final int notification_bg_low_pressed = 0x7f0800a0;
+        public static final int notification_bg_normal = 0x7f0800a1;
+        public static final int notification_bg_normal_pressed = 0x7f0800a2;
+        public static final int notification_icon_background = 0x7f0800a3;
+        public static final int notification_template_icon_bg = 0x7f0800a4;
+        public static final int notification_template_icon_low_bg = 0x7f0800a5;
+        public static final int notification_tile_bg = 0x7f0800a6;
+        public static final int notify_panel_notification_icon_bg = 0x7f0800a7;
+        public static final int tooltip_frame_dark = 0x7f0800ad;
+        public static final int tooltip_frame_light = 0x7f0800ae;
     }
     public static final class id {
         private id() {}

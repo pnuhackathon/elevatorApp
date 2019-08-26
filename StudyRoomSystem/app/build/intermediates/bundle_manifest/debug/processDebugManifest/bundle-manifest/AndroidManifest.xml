@@ -31,6 +31,16 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.studyroomsystem.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@drawable/splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.studyroomsystem.SelectButton" />
         <activity android:name="com.example.studyroomsystem.Profile" />
         <activity android:name="com.example.studyroomsystem.Register" />
@@ -39,11 +49,6 @@
         <activity android:name="com.example.studyroomsystem.EmailLink" />
         <activity android:name="com.example.studyroomsystem.LoginActivity" />
         <activity android:name="com.example.studyroomsystem.MainActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
@@ -126,6 +131,11 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.studyroomsystem.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>
