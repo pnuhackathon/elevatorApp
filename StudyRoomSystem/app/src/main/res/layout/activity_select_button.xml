@@ -1,85 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/bg_2"
-    tools:context=".SelectButton">
+    android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/out_one"
-        style="@android:style/Widget.ImageButton"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginTop="320dp"
-        android:background="@android:color/transparent"
-        android:scaleType="fitCenter"
-        android:src="@drawable/click_1f" />
+    <!-- 각각의 Fragment를 넣을 Container -->
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"/>
 
-    <ImageButton
-        android:id="@+id/out_two"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="320dp"
-        android:layout_toRightOf="@id/out_one"
-        android:background="@android:color/transparent"
-        android:scaleType="fitCenter"
-        android:src="@drawable/click_2f" />
-
-    <ImageButton
-        android:id="@+id/out_three"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="320dp"
-        android:layout_toRightOf="@id/out_two"
-        android:background="@android:color/transparent"
-        android:scaleType="fitCenter"
-        android:src="@drawable/click_3f" />
-
-    <ImageButton
-        android:id="@+id/out_four"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="320dp"
-        android:layout_marginRight="3dp"
-        android:layout_toRightOf="@id/out_three"
-        android:background="@android:color/transparent"
-        android:scaleType="fitCenter"
-        android:src="@drawable/click_4f" />
-
-    <ImageButton
-        android:id="@+id/up"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
-        android:layout_above="@+id/down"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="15dp"
-        android:background="@android:color/transparent"
-        android:scaleType="fitCenter"
-        android:src="@drawable/click_up" />
-
-    <ImageButton
-        android:id="@+id/down"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigationView_main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center"
-        android:layout_marginBottom="80dp"
-        android:background="@android:color/transparent"
-        android:scaleType="fitCenter"
-        android:src="@drawable/click_down"
-        android:textSize="32sp" />
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="center"
+        app:itemBackground="@color/pink"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        app:menu="@menu/bottombar_menu"
+        android:layout_gravity="bottom"
+        />
 
-
-</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

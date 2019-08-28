@@ -1,75 +1,70 @@
 package com.example.studyroomsystem;
 
-import android.content.Context;
+import android.content.Intent;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.net.URISyntaxException;
-
-import com.github.nkzawa.emitter.Emitter;
+import com.example.studyroomsystem.InsideFragment;
+import com.example.studyroomsystem.OutsideFragment;
+import com.example.studyroomsystem.R;
 import com.github.nkzawa.socketio.client.IO;
 import com.github.nkzawa.socketio.client.Socket;
 
+import java.net.URISyntaxException;
 
 public class SelectButton extends AppCompatActivity {
-    private Socket socket;
-    {
-        try {
-            socket = IO.socket("http://15.164.68.143:9000");
-            Log.d("tag", "ddd!?");
-        } catch (URISyntaxException e) {
-            Log.d("tag", "ddd?");
-            throw new RuntimeException(e);
-        }
-    }
+    private FragmentManager fragmentManager = getSupportFragmentManager();
+    private Fragment insideFragment = new InsideFragment();
+    private Fragment outsideFragment = new OutsideFragment();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_button);
-        socket.connect();
+        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavigationView_main_menu);
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.frame_layout, outsideFragment).commit();
 
-        /*ImageButton special_btn = (ImageButton)findViewById(R.id.up);
-        special_btn.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view) {
-                socket.emit("SpecialButton", "enter");
-                Log.d("tag", "ddddd");
-            }
-        });*/
+        bottomNavigationView.setOnNavigationItemSelectedListener(
+                new BottomNavigationView.OnNavigationItemSelectedListener() {
 
-        ImageButton one_btn = (ImageButton)findViewById(R.id.out_one);
-        one_btn.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view) {
-                socket.emit("SpecialCall", "1");
-            }
-        });
+                    @Override
+                    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                        FragmentTransaction transaction = fragmentManager.beginTransaction();
 
-        ImageButton two_btn = (ImageButton)findViewById(R.id.out_two);
-        two_btn.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view) {
-                socket.emit("SpecialCall", "2");
-            }
-        });
+                        // 어떤 메뉴 아이템이 터치되었는지 확인합니다.
+                        switch (item.getItemId()) {
 
-        ImageButton three_btn = (ImageButton)findViewById(R.id.out_three);
-        three_btn.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view) {
-                socket.emit("SpecialCall", "3");
-            }
-        });
+                            case R.id.menuitem_bottombar_inside:
 
-        ImageButton four_btn = (ImageButton)findViewById(R.id.out_four);
-        four_btn.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view) {
-                socket.emit("SpecialCall", "4");
-            }
-        });
+                                transaction.replace(R.id.frame_layout, insideFragment).commit();
+                                break;
+
+                            case R.id.menuitem_bottombar_ouside:
+
+                                transaction.replace(R.id.frame_layout, outsideFragment).commit();
+                                break;
+
+                            case R.id.menuitem_bottombar_settings:
+
+
+                                return true;
+                        }
+                        return false;
+                    }
+
+
+                });
+
 
     }
 }

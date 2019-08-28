@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+>
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:id="@+id/text1"
+        android:text="" />
+
+    <ImageButton
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="400dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/in_one"
+
+        android:layout_marginLeft="90dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/one_clicked"
+        />
+    <ImageButton
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/in_two"
+        android:textSize="32sp"
+        android:layout_marginLeft="230dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/two_clicked" />
+    <ImageButton
+        android:layout_marginTop="530dp"
+        android:layout_marginBottom="80dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/in_three"
+        android:textSize="32sp"
+        android:layout_marginLeft="90dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/three_clicked" />
+    <ImageButton
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="230dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/in_four"
+        android:textSize="32sp"
+        android:layout_marginBottom="80dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/four_clicked" />
+
+</RelativeLayout>
