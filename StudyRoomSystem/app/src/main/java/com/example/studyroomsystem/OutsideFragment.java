@@ -38,28 +38,28 @@ public class OutsideFragment extends Fragment {
         ImageButton one_btn = (ImageButton)view.findViewById(R.id.out_one);
         one_btn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
-                floor = 1;
+                socket.emit("SpecialCall", "1");
             }
         });
 
         ImageButton two_btn = (ImageButton)view.findViewById(R.id.out_two);
         two_btn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
-                floor = 2;
+                socket.emit("SpecialCall", "2");
             }
         });
 
         ImageButton three_btn = (ImageButton)view.findViewById(R.id.out_three);
         three_btn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
-                floor = 3;
+                socket.emit("SpecialCall", "3");
             }
         });
 
         ImageButton four_btn = (ImageButton)view.findViewById(R.id.out_four);
         four_btn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
-                floor = 4;
+                socket.emit("SpecialCall", "4");
             }
         });
 

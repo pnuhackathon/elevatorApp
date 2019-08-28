@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rycan\\Desktop\\Local\\elevatorApp\\StudyRoomSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "D:\\made_App\\elevatorApp\\StudyRoomSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rycan\\.gradle\\caches\\transforms-2\\files-2.1\\202692e018b7d3144d3f203a1a58ad70\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\min\\.gradle\\caches\\transforms-2\\files-2.1\\950421540205e4b3a7e7954c50bb5bba\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rycan\\.gradle\\caches\\transforms-2\\files-2.1\\1690318ed6173fb34752a3b09c81a229\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\min\\.gradle\\caches\\transforms-2\\files-2.1\\986d434f2c84adaa81529caefbf40c11\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
